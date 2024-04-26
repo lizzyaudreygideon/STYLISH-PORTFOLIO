@@ -7,10 +7,10 @@
 }
 
 @font-face {
-  font-family: "MyCustomFont";
-  src: url(/SourceSans3-Regular.ttf);
+  font-family: "MyCustomFont", SourceSans3;
+  src: url(SourceSans3-Regular.ttf);
 }
-.ban {
+#ban {
   background-image: url(bg-masthead.jpg);
   background-size: cover;
   height: 100vh;
@@ -18,7 +18,7 @@
   background-position: left center;
   position: relative;
 }
-.ban .navigation nav {
+#ban .navigation nav {
   position: absolute;
   width: 100%;
   height: 100vh;
@@ -32,17 +32,17 @@
   text-align: center;
   transition: 1s;
 }
-.ban .navigation nav ul li {
+#ban .navigation nav ul li {
   margin: 35px;
 }
-.ban .navigation nav ul li a {
-  font-family: "MyCustomFont";
+#ban .navigation nav ul li a {
+  font-family: "MyCustomFont", SourceSans3;
   font-size: 40px;
   color: grey;
   text-decoration: none;
   padding: 10px;
 }
-.ban .navigation nav i {
+#ban .navigation nav i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,7 +58,7 @@
   background-color: rgb(104, 101, 101);
   border-radius: 4px;
 }
-.ban .navigation i {
+#ban .navigation i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,7 +73,7 @@
   background-color: rgba(104, 101, 101, 0.8);
   border-radius: 4px;
 }
-.ban .banner {
+#ban .banner {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -83,15 +83,15 @@
   justify-content: center;
   align-items: center;
 }
-.ban .banner h1 {
+#ban .banner h1 {
   font-family: "MyCustomFont", SourceSans3;
   font-size: 50px;
 }
-.ban .banner .para1 {
+#ban .banner .para1 {
   font-family: "MyCustomFont", SourceSans3;
   font-weight: bold;
 }
-.ban .banner .button1 {
+#ban .banner .button1 {
   font-family: "MyCustomFont", SourceSans3;
   width: 130px;
   height: 50px;
@@ -109,7 +109,7 @@
   font-weight: bold;
 }
 
-.about {
+#about {
   overflow-x: hidden;
   padding: 100px;
   display: flex;
@@ -117,19 +117,19 @@
   justify-content: center;
   align-items: center;
 }
-.about h2 {
+#about h2 {
   font-family: "MyCustomFont", SourceSans3;
   padding-bottom: 5px;
 }
-.about .para2 {
+#about .para2 {
   font-family: "MyCustomFont", SourceSans3;
   font-weight: lighter;
   color: rgb(87, 83, 83);
 }
-.about .Unsplash {
+#about .Unsplash {
   color: rgb(0, 128, 163);
 }
-.about a {
+#about a {
   font-family: "MyCustomFont", SourceSans3;
   width: 120px;
   height: 50px;
@@ -149,28 +149,28 @@
   font-weight: bold;
 }
 
-.services {
+#services {
   font-family: "MyCustomFont", SourceSans3;
   overflow-x: hidden;
   background-color: rgb(0, 128, 163);
   color: white;
   padding: 80px;
 }
-.services .mustache {
+#services .mustache {
   background-color: white;
   width: 25px;
   height: 25px;
   color: blue;
   border-radius: 50%;
 }
-.services .pictures {
+#services .pictures {
   display: flex;
   margin: 20px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.services .material-symbols-outlined {
+#services .material-symbols-outlined {
   background-color: white;
   border: white;
   padding: 30px;
@@ -181,19 +181,19 @@
   align-items: center;
   color: rgb(0, 128, 163);
 }
-.services .servicetext {
-  color: yellow;
+#services .servicetext {
+  color: rgb(241, 189, 32);
   font-size: small;
   text-align: center;
   margin-top: 30px;
   display: block;
 }
-.services h2 {
+#services h2 {
   font-size: 40px;
-  font-family: "MyCustomFont";
+  font-family: "MyCustomFont", SourceSans3;
   text-align: center;
 }
-.services .icon {
+#services .icon {
   width: 20%;
   display: flex;
   flex-direction: column;
@@ -202,15 +202,15 @@
   margin: 5px;
   padding: 10px;
 }
-.services .icon p {
-  font-family: "MyCustomFont";
+#services .icon p {
+  font-family: "MyCustomFont", SourceSans3;
   font-size: 12px;
   font-weight: lighter;
   text-align: center;
 }
-.services .icon h4 {
+#services .icon h4 {
   margin: 10px 0 2px 0;
-  font-family: "MyCustomFont";
+  font-family: "MyCustomFont", SourceSans3;
   font-weight: 500;
 }
 
@@ -249,7 +249,7 @@
   font-weight: bold;
 }
 
-.portfolio {
+#portfolio {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -259,20 +259,20 @@
   font-family: "MyCustomFont", SourceSans3;
   margin: 60px;
 }
-.portfolio .servicetext {
-  color: yellow;
+#portfolio .servicetext {
+  color: rgb(241, 189, 32);
   text-align: center;
   font-size: 20px;
   display: block;
 }
-.portfolio .portfoliohead {
+#portfolio .portfoliohead {
   font-size: larger;
   width: 100%;
   text-align: center;
   color: black;
   font-size: 50px;
 }
-.portfolio .stationery {
+#portfolio .stationery {
   background-image: url(portfolio-1.jpg);
   background-size: cover;
   background-position: center;
@@ -284,7 +284,7 @@
   height: 45vh;
   padding: 40px;
 }
-.portfolio .icecream {
+#portfolio .icecream {
   background-image: url(portfolio-2.jpg);
   background-size: cover;
   background-position: center;
@@ -296,7 +296,7 @@
   height: 45vh;
   padding: 40px;
 }
-.portfolio .strawberries {
+#portfolio .strawberries {
   background-image: url(portfolio-3.jpg);
   background-size: cover;
   background-position: center;
@@ -308,7 +308,7 @@
   height: 45vh;
   padding: 40px;
 }
-.portfolio .workspace {
+#portfolio .workspace {
   background-image: url(portfolio-4.jpg);
   background-size: cover;
   background-position: center;
@@ -320,7 +320,7 @@
   height: 45vh;
   padding: 40px;
 }
-.portfolio .items {
+#portfolio .items {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -328,10 +328,10 @@
   max-width: 900px;
   margin: 25px;
 }
-.portfolio .items h4 {
+#portfolio .items h4 {
   font-size: 15px;
 }
-.portfolio .items p {
+#portfolio .items p {
   font-size: 12px;
 }
 
@@ -389,7 +389,7 @@
 }
 
 .map {
-  background-image: url("/Flexbox-Project.png");
+  background-image: url("Flexbox-Project.png");
   background-size: cover;
   width: 100%;
   height: 70vh;
@@ -412,18 +412,19 @@
 }
 
 @media only screen and (max-width: 575.98px) {
-  .ban {
+  #ban {
     background-image: url(bg-masthead.jpg);
     background-size: cover;
+    font-family: "MyCustomFont", SourceSans3;
     height: 50vh;
     width: 100%;
     background-position: top center;
     position: relative;
   }
-  .ban .navigation nav {
+  #ban .navigation nav {
     position: absolute;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     background-color: rgb(33, 37, 41);
     z-index: 2;
     top: -100vh;
@@ -434,16 +435,16 @@
     text-align: center;
     transition: 1s;
   }
-  .ban .navigation nav ul li {
+  #ban .navigation nav ul li {
     margin: 35px;
   }
-  .ban .navigation nav ul li a {
-    font-size: 20px;
+  #ban .navigation nav ul li a {
+    font-size: 40px;
     color: grey;
     text-decoration: none;
     padding: 10px;
   }
-  .ban .navigation nav i {
+  #ban .navigation nav i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -459,7 +460,7 @@
     background-color: rgb(104, 101, 101);
     border-radius: 4px;
   }
-  .ban .navigation i {
+  #ban .navigation i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -474,7 +475,7 @@
     background-color: rgba(104, 101, 101, 0.8);
     border-radius: 4px;
   }
-  .ban .banner {
+  #ban .banner {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -484,16 +485,16 @@
     justify-content: center;
     align-items: center;
   }
-  .ban .banner h1 {
+  #ban .banner h1 {
     font-family: "MyCustomFont", SourceSans3;
     font-size: 28px;
   }
-  .ban .banner .para1 {
+  #ban .banner .para1 {
     font-family: "MyCustomFont", SourceSans3;
     font-weight: bold;
     font-size: 10px;
   }
-  .ban .banner .button1 {
+  #ban .banner .button1 {
     font-family: "MyCustomFont", SourceSans3;
     width: 110px;
     height: 30px;
@@ -510,7 +511,7 @@
     align-items: center;
     font-weight: bold;
   }
-  .about {
+  #about {
     text-align: center;
     overflow-x: hidden;
     padding: 30px;
@@ -519,21 +520,21 @@
     justify-content: center;
     align-items: center;
   }
-  .about h2 {
+  #about h2 {
     font-family: "MyCustomFont", SourceSans3;
     padding-bottom: 5px;
     font-size: 20px;
   }
-  .about .para2 {
+  #about .para2 {
     font-family: "MyCustomFont", SourceSans3;
     font-weight: lighter;
     font-size: 14px;
     color: rgb(87, 83, 83);
   }
-  .about .Unsplash {
+  #about .Unsplash {
     color: rgb(0, 128, 163);
   }
-  .about a {
+  #about a {
     font-family: "MyCustomFont", SourceSans3;
     width: 110px;
     height: 30px;
@@ -552,26 +553,27 @@
     align-items: center;
     font-weight: bold;
   }
-  .services {
+  #services {
     font-family: "MyCustomFont", SourceSans3;
     overflow-x: hidden;
     background-color: rgb(0, 128, 163);
     color: white;
     padding: 30px;
   }
-  .services .mustache {
+  #services .mustache {
     background-color: white;
     width: 25px;
     height: 25px;
     color: blue;
     border-radius: 50%;
   }
-  .services .pictures {
+  #services .pictures {
     display: flex;
     margin: 20px;
-    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
   }
-  .services .material-symbols-outlined {
+  #services .material-symbols-outlined {
     background-color: white;
     border: white;
     padding: 30px;
@@ -582,30 +584,30 @@
     align-items: center;
     color: rgb(0, 128, 163);
   }
-  .services .servicetext {
-    color: yellow;
+  #services .servicetext {
+    color: rgb(241, 189, 32);
     font-size: small;
     text-align: center;
     margin-top: 30px;
     display: block;
   }
-  .services h2 {
+  #services h2 {
     font-size: 20px;
     text-align: center;
   }
-  .services .icon {
-    width: 100%;
+  #services .icon {
+    width: 45%;
     display: flex;
     flex-direction: column;
     margin: 5px;
     padding: 10px;
   }
-  .services .icon p {
+  #services .icon p {
     font-size: 12px;
     font-weight: lighter;
     margin-top: 5px;
   }
-  .services .icon h4 {
+  #services .icon h4 {
     margin-top: 10px;
   }
   .welcome {
@@ -615,7 +617,7 @@
     overflow-x: hidden;
     background-position: right center;
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -642,33 +644,33 @@
     align-items: center;
     font-weight: bold;
   }
-  .portfolio {
+  #portfolio {
     display: flex;
     flex-direction: column;
     padding: 30px;
     color: white;
     font-family: "MyCustomFont", SourceSans3;
   }
-  .portfolio h4 {
+  #portfolio h4 {
     font-size: 16px;
   }
-  .portfolio p {
+  #portfolio p {
     font-size: 12px;
   }
-  .portfolio .servicetext {
-    color: yellow;
+  #portfolio .servicetext {
+    color: rgb(241, 189, 32);
     text-align: center;
     font-size: 20px;
     display: block;
   }
-  .portfolio .portfoliohead {
+  #portfolio .portfoliohead {
     font-size: larger;
     width: 100%;
     text-align: center;
     color: black;
     font-size: 30px;
   }
-  .portfolio .stationery {
+  #portfolio .stationery {
     background-image: url(portfolio-1.jpg);
     background-size: cover;
     background-position: center;
@@ -679,9 +681,9 @@
     width: 300px;
     height: 30vh;
     padding: 10px;
-    margin: 0 0 5px 0;
+    margin: 0 0 10px 0;
   }
-  .portfolio .icecream {
+  #portfolio .icecream {
     background-image: url(portfolio-2.jpg);
     background-size: cover;
     background-position: center;
@@ -692,9 +694,9 @@
     width: 300px;
     height: 30vh;
     padding: 10px;
-    margin: 0 0 5px 0;
+    margin: 0 0 10px 0;
   }
-  .portfolio .strawberries {
+  #portfolio .strawberries {
     background-image: url(portfolio-3.jpg);
     background-size: cover;
     background-position: center;
@@ -705,9 +707,9 @@
     width: 300px;
     height: 30vh;
     padding: 10px;
-    margin: 0 0 5px 0;
+    margin: 0 0 10px 0;
   }
-  .portfolio .workspace {
+  #portfolio .workspace {
     background-image: url(portfolio-4.jpg);
     background-size: cover;
     background-position: center;
@@ -718,9 +720,9 @@
     width: 300px;
     height: 30vh;
     padding: 10px;
-    margin: 0 0 5px 0;
+    margin: 0 0 10px 0;
   }
-  .portfolio .items {
+  #portfolio .items {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -778,7 +780,7 @@
     font-family: "MyCustomFont", SourceSans3;
   }
   .map {
-    background-image: url("/Flexbox-Project.png");
+    background-image: url("Flexbox-Project.png");
     background-size: cover;
     width: 100%;
     height: 30vh;
@@ -800,14 +802,14 @@
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 992px) {
-  .ban {
+  #ban {
     background-image: url(bg-masthead.jpg);
     background-size: cover;
     height: 50vh;
     width: 100%;
     background-position: top left;
   }
-  .ban .navigation nav {
+  #ban .navigation nav {
     position: absolute;
     width: 100%;
     height: 50vh;
@@ -821,16 +823,17 @@
     text-align: center;
     transition: 1s;
   }
-  .ban .navigation nav ul li {
+  #ban .navigation nav ul li {
     margin: 35px;
   }
-  .ban .navigation nav ul li a {
-    font-size: 25px;
+  #ban .navigation nav ul li a {
+    font-family: "MyCustomFont", SourceSans3;
+    font-size: 30px;
     color: grey;
     text-decoration: none;
     padding: 10px;
   }
-  .ban .navigation nav i {
+  #ban .navigation nav i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -846,7 +849,7 @@
     background-color: rgb(104, 101, 101);
     border-radius: 4px;
   }
-  .ban .navigation i {
+  #ban .navigation i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -861,21 +864,21 @@
     background-color: rgba(104, 101, 101, 0.8);
     border-radius: 4px;
   }
-  .ban .banner {
+  #ban .banner {
     display: flex;
     flex-direction: column;
   }
-  .ban .banner h1 {
+  #ban .banner h1 {
     font-family: "MyCustomFont", SourceSans3;
     font-size: 40px;
     padding-bottom: 5px;
   }
-  .ban .banner .para1 {
+  #ban .banner .para1 {
     font-family: "MyCustomFont", SourceSans3;
     font-weight: bold;
     font-size: 14px;
   }
-  .ban .banner a {
+  #ban .banner a {
     font-family: "MyCustomFont", SourceSans3;
     width: 130px;
     height: 50px;
@@ -892,7 +895,7 @@
     align-items: center;
     font-weight: bold;
   }
-  .about {
+  #about {
     overflow-x: hidden;
     padding: 40px;
     display: flex;
@@ -900,21 +903,21 @@
     justify-content: center;
     align-items: center;
   }
-  .about h2 {
+  #about h2 {
     font-family: "MyCustomFont", SourceSans3;
     padding-bottom: 5px;
     font-size: 20px;
   }
-  .about .para2 {
+  #about .para2 {
     font-family: "MyCustomFont", SourceSans3;
     font-weight: lighter;
     color: rgb(87, 83, 83);
     font-size: 13px;
   }
-  .about .Unsplash {
+  #about .Unsplash {
     color: rgb(0, 128, 163);
   }
-  .about a {
+  #about a {
     font-family: "MyCustomFont", SourceSans3;
     width: 120px;
     height: 50px;
@@ -933,28 +936,28 @@
     align-items: center;
     font-weight: bold;
   }
-  .services {
+  #services {
     font-family: "MyCustomFont", SourceSans3;
     overflow-x: hidden;
     background-color: rgb(0, 128, 163);
     color: white;
     padding: 40px;
   }
-  .services .mustache {
+  #services .mustache {
     background-color: white;
     width: 25px;
     height: 25px;
     color: blue;
     border-radius: 50%;
   }
-  .services .pictures {
+  #services .pictures {
     display: flex;
     margin: 20px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
-  .services .material-symbols-outlined {
+  #services .material-symbols-outlined {
     background-color: white;
     border: white;
     padding: 30px;
@@ -965,18 +968,18 @@
     align-items: center;
     color: rgb(0, 128, 163);
   }
-  .services .servicetext {
-    color: yellow;
+  #services .servicetext {
+    color: rgb(241, 189, 32);
     font-size: small;
     text-align: center;
     margin-top: 30px;
     display: block;
   }
-  .services h2 {
+  #services h2 {
     font-size: 20px;
     text-align: center;
   }
-  .services .icon {
+  #services .icon {
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -985,12 +988,12 @@
     margin: 5px;
     padding: 10px;
   }
-  .services .icon p {
+  #services .icon p {
     font-size: 12px;
     font-weight: lighter;
     margin-top: 5px;
   }
-  .services .icon h4 {
+  #services .icon h4 {
     margin-top: 10px;
   }
   .welcome {
@@ -1012,6 +1015,7 @@
     display: block;
   }
   .welcome a {
+    font-family: "MyCustomFont", SourceSans3;
     text-decoration: none;
     padding: 20px;
     color: white;
@@ -1027,7 +1031,7 @@
     align-items: center;
     font-weight: bold;
   }
-  .portfolio {
+  #portfolio {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1037,20 +1041,22 @@
     font-family: "MyCustomFont", SourceSans3;
     margin: 40px;
   }
-  .portfolio .servicetext {
-    color: yellow;
+  #portfolio .servicetext {
+    color: rgb(241, 189, 32);
     text-align: center;
+    font-family: "MyCustomFont", SourceSans3;
     font-size: 20px;
     display: block;
   }
-  .portfolio .portfoliohead {
+  #portfolio .portfoliohead {
     font-size: larger;
     width: 100%;
     text-align: center;
+    font-family: "MyCustomFont", SourceSans3;
     color: black;
     font-size: 40px;
   }
-  .portfolio .stationery {
+  #portfolio .stationery {
     background-image: url(portfolio-1.jpg);
     background-size: cover;
     background-position: center;
@@ -1062,7 +1068,7 @@
     height: 30vh;
     padding: 50px;
   }
-  .portfolio .icecream {
+  #portfolio .icecream {
     background-image: url(portfolio-2.jpg);
     background-size: cover;
     background-position: center;
@@ -1074,7 +1080,7 @@
     height: 30vh;
     padding: 50px;
   }
-  .portfolio .strawberries {
+  #portfolio .strawberries {
     background-image: url(portfolio-3.jpg);
     background-size: cover;
     background-position: center;
@@ -1086,7 +1092,7 @@
     height: 30vh;
     padding: 50px;
   }
-  .portfolio .workspace {
+  #portfolio .workspace {
     background-image: url(portfolio-4.jpg);
     background-size: cover;
     background-position: center;
@@ -1098,7 +1104,7 @@
     height: 30vh;
     padding: 50px;
   }
-  .portfolio .items {
+  #portfolio .items {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -1159,7 +1165,7 @@
     font-family: "MyCustomFont", SourceSans3;
   }
   .map {
-    background-image: url("/Flexbox-Project.png");
+    background-image: url("Flexbox-Project.png");
     background-size: cover;
     width: 100%;
     height: 40vh;
@@ -1181,14 +1187,14 @@
   }
 }
 @media only screen and (min-width: 993px) and (max-width: 1024px) {
-  .ban {
+  #ban {
     background-image: url(bg-masthead.jpg);
     background-size: cover;
     height: 50vh;
     width: 100%;
     background-position: top left;
   }
-  .ban .navigation nav {
+  #ban .navigation nav {
     position: absolute;
     width: 100%;
     height: 50vh;
@@ -1202,16 +1208,17 @@
     text-align: center;
     transition: 1s;
   }
-  .ban .navigation nav ul li {
+  #ban .navigation nav ul li {
     margin: 35px;
   }
-  .ban .navigation nav ul li a {
+  #ban .navigation nav ul li a {
+    font-family: "MyCustomFont", SourceSans3;
     font-size: 30px;
     color: grey;
     text-decoration: none;
     padding: 10px;
   }
-  .ban .navigation nav i {
+  #ban .navigation nav i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1227,7 +1234,7 @@
     background-color: rgb(104, 101, 101);
     border-radius: 4px;
   }
-  .ban .navigation i {
+  #ban .navigation i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1242,21 +1249,21 @@
     background-color: rgba(104, 101, 101, 0.8);
     border-radius: 4px;
   }
-  .ban .banner {
+  #ban .banner {
     display: flex;
     flex-direction: column;
   }
-  .ban .banner h1 {
+  #ban .banner h1 {
     font-family: "MyCustomFont", SourceSans3;
     font-size: 60px;
     padding-bottom: 5px;
   }
-  .ban .banner .para1 {
+  #ban .banner .para1 {
     font-family: "MyCustomFont", SourceSans3;
     font-weight: bold;
     font-size: 16px;
   }
-  .ban .banner a {
+  #ban .banner a {
     font-family: "MyCustomFont", SourceSans3;
     width: 140px;
     height: 60px;
@@ -1273,7 +1280,7 @@
     align-items: center;
     font-weight: bold;
   }
-  .about {
+  #about {
     overflow-x: hidden;
     padding: 40px;
     display: flex;
@@ -1281,21 +1288,21 @@
     justify-content: center;
     align-items: center;
   }
-  .about h2 {
+  #about h2 {
     font-family: "MyCustomFont", SourceSans3;
     padding-bottom: 5px;
     font-size: 30px;
   }
-  .about .para2 {
+  #about .para2 {
     font-family: "MyCustomFont", SourceSans3;
     font-weight: lighter;
     color: rgb(87, 83, 83);
     font-size: 16px;
   }
-  .about .Unsplash {
+  #about .Unsplash {
     color: rgb(0, 128, 163);
   }
-  .about a {
+  #about a {
     font-family: "MyCustomFont", SourceSans3;
     width: 140px;
     height: 60px;
@@ -1314,28 +1321,28 @@
     align-items: center;
     font-weight: bold;
   }
-  .services {
+  #services {
     font-family: "MyCustomFont", SourceSans3;
     overflow-x: hidden;
     background-color: rgb(0, 128, 163);
     color: white;
     padding: 40px;
   }
-  .services .mustache {
+  #services .mustache {
     background-color: white;
     width: 25px;
     height: 25px;
     color: blue;
     border-radius: 50%;
   }
-  .services .pictures {
+  #services .pictures {
     display: flex;
     margin: 20px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
-  .services .material-symbols-outlined {
+  #services .material-symbols-outlined {
     background-color: white;
     border: white;
     padding: 30px;
@@ -1346,18 +1353,20 @@
     align-items: center;
     color: rgb(0, 128, 163);
   }
-  .services .servicetext {
-    color: yellow;
+  #services .servicetext {
+    color: rgb(241, 189, 32);
+    font-family: "MyCustomFont", SourceSans3;
     font-size: small;
     text-align: center;
     margin-top: 30px;
     display: block;
   }
-  .services h2 {
+  #services h2 {
     font-size: 30px;
+    font-family: "MyCustomFont", SourceSans3;
     text-align: center;
   }
-  .services .icon {
+  #services .icon {
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -1366,13 +1375,15 @@
     margin: 5px;
     padding: 10px;
   }
-  .services .icon p {
+  #services .icon p {
+    font-family: "MyCustomFont", SourceSans3;
     font-size: 12px;
     font-weight: lighter;
     margin-top: 5px;
   }
-  .services .icon h4 {
+  #services .icon h4 {
     margin-top: 10px;
+    font-family: "MyCustomFont", SourceSans3;
   }
   .welcome {
     font-family: "MyCustomFont", SourceSans3;
@@ -1401,6 +1412,7 @@
     border-radius: 3px;
     width: 150px;
     height: 60px;
+    font-family: "MyCustomFont", SourceSans3;
     font-size: 14px;
     display: flex;
     flex-direction: column;
@@ -1408,7 +1420,7 @@
     align-items: center;
     font-weight: bold;
   }
-  .portfolio {
+  #portfolio {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1418,20 +1430,22 @@
     font-family: "MyCustomFont", SourceSans3;
     margin: 40px;
   }
-  .portfolio .servicetext {
-    color: yellow;
+  #portfolio .servicetext {
+    color: rgb(241, 189, 32);
     text-align: center;
     font-size: 20px;
     display: block;
+    font-family: "MyCustomFont", SourceSans3;
   }
-  .portfolio .portfoliohead {
+  #portfolio .portfoliohead {
     font-size: larger;
     width: 100%;
     text-align: center;
+    font-family: "MyCustomFont", SourceSans3;
     color: black;
     font-size: 40px;
   }
-  .portfolio .stationery {
+  #portfolio .stationery {
     background-image: url(portfolio-1.jpg);
     background-size: cover;
     background-position: center;
@@ -1443,7 +1457,7 @@
     height: 25vh;
     padding: 40px;
   }
-  .portfolio .icecream {
+  #portfolio .icecream {
     background-image: url(portfolio-2.jpg);
     background-size: cover;
     background-position: center;
@@ -1455,7 +1469,7 @@
     height: 25vh;
     padding: 40px;
   }
-  .portfolio .strawberries {
+  #portfolio .strawberries {
     background-image: url(portfolio-3.jpg);
     background-size: cover;
     background-position: center;
@@ -1467,7 +1481,7 @@
     height: 25vh;
     padding: 40px;
   }
-  .portfolio .workspace {
+  #portfolio .workspace {
     background-image: url(portfolio-4.jpg);
     background-size: cover;
     background-position: center;
@@ -1479,7 +1493,7 @@
     height: 25vh;
     padding: 40px;
   }
-  .portfolio .items {
+  #portfolio .items {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -1540,7 +1554,7 @@
     font-family: "MyCustomFont", SourceSans3;
   }
   .map {
-    background-image: url("/Flexbox-Project.png");
+    background-image: url("Flexbox-Project.png");
     background-size: cover;
     width: 100%;
     height: 40vh;
