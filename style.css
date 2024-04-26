@@ -131,7 +131,7 @@
 }
 #about a {
   font-family: "MyCustomFont", Source Sans 3;
-  width: 120px;
+  width: 150px;
   height: 50px;
   font-size: 20px;
   text-align: center;
@@ -239,7 +239,7 @@
   background-color: rgb(0, 128, 163);
   border: rgb(0, 128, 163);
   border-radius: 3px;
-  width: 130px;
+  width: 150px;
   height: 50px;
   font-size: 12px;
   display: flex;
