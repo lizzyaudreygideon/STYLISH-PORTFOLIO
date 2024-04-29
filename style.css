@@ -343,7 +343,7 @@
 
 .twolinks {
   font-family: "MyCustomFont", Source Sans 3;
-  background-color: teal;
+  background-color: rgb(0, 128, 163);
   overflow-x: hidden;
   color: white;
   display: flex;
@@ -743,7 +743,7 @@
   }
   .twolinks {
     font-family: "MyCustomFont", Source Sans 3;
-    background-color: teal;
+    background-color: rgb(0, 128, 163);
     overflow-x: hidden;
     color: white;
     display: flex;
@@ -1125,7 +1125,7 @@
   }
   .twolinks {
     font-family: "MyCustomFont", Source Sans 3;
-    background-color: teal;
+    background-color: rgb(0, 128, 163);
     overflow-x: hidden;
     color: white;
     display: flex;
@@ -1514,7 +1514,7 @@
   }
   .twolinks {
     font-family: "MyCustomFont", Source Sans 3;
-    background-color: teal;
+    background-color: rgb(0, 128, 163);
     overflow-x: hidden;
     color: white;
     display: flex;
