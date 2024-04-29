@@ -494,9 +494,6 @@
   #ban .banner h1 {
     font-family: "MyCustomFont", Source Sans 3;
     font-size: 28px;
-    position: absolute;
-    top: 50%;
-    left: 60%;
     text-align: center;
   }
   #ban .banner .para1 {
