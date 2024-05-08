@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   src: url(SourceSans3-Regular.ttf);
 }
 #ban {
@@ -36,7 +36,7 @@
   margin: 35px;
 }
 #ban .navigation nav ul li a {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   font-size: 40px;
   color: grey;
   text-decoration: none;
@@ -84,15 +84,15 @@
   align-items: center;
 }
 #ban .banner h1 {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   font-size: 50px;
 }
 #ban .banner .para1 {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   font-weight: bold;
 }
 #ban .banner .button1 {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   width: 130px;
   height: 50px;
   background-color: rgb(0, 128, 163);
@@ -118,11 +118,11 @@
   align-items: center;
 }
 #about h2 {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   padding-bottom: 5px;
 }
 #about .para2 {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   font-weight: lighter;
   color: rgb(87, 83, 83);
 }
@@ -130,7 +130,7 @@
   color: rgb(0, 128, 163);
 }
 #about a {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   width: 150px;
   height: 50px;
   font-size: 20px;
@@ -150,7 +150,7 @@
 }
 
 #services {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   overflow-x: hidden;
   background-color: rgb(0, 128, 163);
   color: white;
@@ -182,7 +182,7 @@
   color: rgb(0, 128, 163);
 }
 #services .servicetext {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   color: rgb(241, 189, 32);
   font-size: small;
   text-align: center;
@@ -191,7 +191,7 @@
 }
 #services h2 {
   font-size: 40px;
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   text-align: center;
 }
 #services .icon {
@@ -204,19 +204,19 @@
   padding: 10px;
 }
 #services .icon p {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   font-size: 12px;
-  font-weight: lighter;
+  font-weight: 500;
   text-align: center;
 }
 #services .icon h4 {
   margin: 10px 0 2px 0;
-  font-family: "MyCustomFont", Source Sans 3;
-  font-weight: 500;
+  font-family: "MyCustomFont";
+  font-weight: 700;
 }
 
 .welcome {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   background-image: url(portfolio-4.jpg);
   background-size: cover;
   overflow-x: hidden;
@@ -234,7 +234,7 @@
   display: block;
 }
 .welcome a {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   text-decoration: none;
   padding: 20px;
   color: white;
@@ -258,11 +258,11 @@
   justify-content: center;
   padding: 60px;
   color: white;
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   margin: 60px;
 }
 #portfolio .servicetext {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   color: rgb(241, 189, 32);
   text-align: center;
   font-size: 20px;
@@ -272,7 +272,7 @@
   font-size: larger;
   width: 100%;
   text-align: center;
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   color: black;
   font-size: 50px;
 }
@@ -333,16 +333,18 @@
   margin: 25px;
 }
 #portfolio .items h4 {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   font-size: 15px;
+  font-weight: 700;
 }
 #portfolio .items p {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   font-size: 12px;
+  font-weight: 500;
 }
 
 .twolinks {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   background-color: rgb(0, 128, 163);
   overflow-x: hidden;
   color: white;
@@ -373,7 +375,7 @@
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
 }
 .twolinks .button5 {
   text-decoration: none;
@@ -391,7 +393,7 @@
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
 }
 
 .map {
@@ -412,7 +414,7 @@
   margin: 10px 10px;
 }
 .footer1 p {
-  font-family: "MyCustomFont", Source Sans 3;
+  font-family: "MyCustomFont";
   font-size: 10px;
   font-weight: lighter;
 }
@@ -421,7 +423,7 @@
   #ban {
     background-image: url(bg-masthead.jpg);
     background-size: cover;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     height: 50vh;
     width: 100%;
     background-position: top center;
@@ -492,18 +494,18 @@
     align-items: center;
   }
   #ban .banner h1 {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-size: 25px;
     text-align: center;
   }
   #ban .banner .para1 {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-weight: bold;
     font-size: 10px;
     text-align: center;
   }
   #ban .banner .button1 {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     width: 110px;
     height: 30px;
     background-color: rgb(0, 128, 163);
@@ -529,12 +531,12 @@
     align-items: center;
   }
   #about h2 {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     padding-bottom: 5px;
     font-size: 20px;
   }
   #about .para2 {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-weight: lighter;
     font-size: 14px;
     color: rgb(87, 83, 83);
@@ -543,7 +545,7 @@
     color: rgb(0, 128, 163);
   }
   #about a {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     width: 110px;
     height: 30px;
     font-size: 10px;
@@ -562,7 +564,7 @@
     font-weight: bold;
   }
   #services {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     overflow-x: hidden;
     background-color: rgb(0, 128, 163);
     color: white;
@@ -577,7 +579,7 @@
   }
   #services .pictures {
     display: flex;
-    margin: 20px;
+    margin: 20px 0;
     flex-wrap: wrap;
     max-width: 100%;
   }
@@ -594,7 +596,7 @@
   }
   #services .servicetext {
     color: rgb(241, 189, 32);
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-size: small;
     text-align: center;
     margin-top: 30px;
@@ -602,18 +604,18 @@
   }
   #services h2 {
     font-size: 20px;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     text-align: center;
   }
   #services .icon {
     width: 45%;
     display: flex;
     flex-direction: column;
-    margin: 5px;
+    margin: 7px;
     padding: 10px;
   }
   #services .icon p {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-size: 10px;
     font-weight: lighter;
     margin-top: 5px;
@@ -622,7 +624,7 @@
     margin-top: 10px;
   }
   .welcome {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     background-image: url(portfolio-4.jpg);
     background-size: cover;
     overflow-x: hidden;
@@ -660,7 +662,8 @@
     flex-direction: column;
     padding: 30px;
     color: white;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
+    margin: 30px;
   }
   #portfolio h4 {
     font-size: 16px;
@@ -742,7 +745,7 @@
     margin: 25px;
   }
   .twolinks {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     background-color: rgb(0, 128, 163);
     overflow-x: hidden;
     color: white;
@@ -771,7 +774,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
   }
   .twolinks .button5 {
     text-decoration: none;
@@ -788,7 +791,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
   }
   .map {
     background-image: url("Flexbox-Project.png");
@@ -807,7 +810,7 @@
     margin: 10px 10px;
   }
   .footer1 p {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-size: 10px;
     font-weight: lighter;
   }
@@ -838,7 +841,7 @@
     margin: 35px;
   }
   #ban .navigation nav ul li a {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-size: 30px;
     color: grey;
     text-decoration: none;
@@ -880,17 +883,17 @@
     flex-direction: column;
   }
   #ban .banner h1 {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-size: 40px;
     padding-bottom: 5px;
   }
   #ban .banner .para1 {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-weight: bold;
     font-size: 14px;
   }
   #ban .banner a {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     width: 130px;
     height: 50px;
     background-color: rgb(0, 128, 163);
@@ -915,12 +918,12 @@
     align-items: center;
   }
   #about h2 {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     padding-bottom: 5px;
     font-size: 20px;
   }
   #about .para2 {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-weight: lighter;
     color: rgb(87, 83, 83);
     font-size: 13px;
@@ -929,7 +932,7 @@
     color: rgb(0, 128, 163);
   }
   #about a {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     width: 120px;
     height: 50px;
     font-size: 20px;
@@ -948,7 +951,7 @@
     font-weight: bold;
   }
   #services {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     overflow-x: hidden;
     background-color: rgb(0, 128, 163);
     color: white;
@@ -1008,7 +1011,7 @@
     margin-top: 10px;
   }
   .welcome {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     background-image: url(portfolio-4.jpg);
     background-size: cover;
     overflow-x: hidden;
@@ -1026,7 +1029,7 @@
     display: block;
   }
   .welcome a {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     text-decoration: none;
     padding: 20px;
     color: white;
@@ -1049,13 +1052,13 @@
     justify-content: center;
     padding: 30px;
     color: white;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     margin: 40px;
   }
   #portfolio .servicetext {
     color: rgb(241, 189, 32);
     text-align: center;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-size: 20px;
     display: block;
   }
@@ -1063,7 +1066,7 @@
     font-size: larger;
     width: 100%;
     text-align: center;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     color: black;
     font-size: 40px;
   }
@@ -1124,7 +1127,7 @@
     margin: 15px;
   }
   .twolinks {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     background-color: rgb(0, 128, 163);
     overflow-x: hidden;
     color: white;
@@ -1155,7 +1158,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
   }
   .twolinks .button5 {
     text-decoration: none;
@@ -1173,7 +1176,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
   }
   .map {
     background-image: url("Flexbox-Project.png");
@@ -1192,7 +1195,7 @@
     margin: 10px 10px;
   }
   .footer1 p {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-size: 10px;
     font-weight: lighter;
   }
@@ -1223,7 +1226,7 @@
     margin: 35px;
   }
   #ban .navigation nav ul li a {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-size: 30px;
     color: grey;
     text-decoration: none;
@@ -1265,17 +1268,17 @@
     flex-direction: column;
   }
   #ban .banner h1 {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-size: 60px;
     padding-bottom: 5px;
   }
   #ban .banner .para1 {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-weight: bold;
     font-size: 16px;
   }
   #ban .banner a {
-    font-family: "MyCustomFont", Source Sans3;
+    font-family: "MyCustomFont";
     width: 140px;
     height: 60px;
     background-color: rgb(0, 128, 163);
@@ -1300,12 +1303,12 @@
     align-items: center;
   }
   #about h2 {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     padding-bottom: 5px;
     font-size: 30px;
   }
   #about .para2 {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-weight: lighter;
     color: rgb(87, 83, 83);
     font-size: 16px;
@@ -1314,7 +1317,7 @@
     color: rgb(0, 128, 163);
   }
   #about a {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     width: 140px;
     height: 60px;
     font-size: 20px;
@@ -1333,7 +1336,7 @@
     font-weight: bold;
   }
   #services {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFon";
     overflow-x: hidden;
     background-color: rgb(0, 128, 163);
     color: white;
@@ -1366,7 +1369,7 @@
   }
   #services .servicetext {
     color: rgb(241, 189, 32);
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-size: small;
     text-align: center;
     margin-top: 30px;
@@ -1374,7 +1377,7 @@
   }
   #services h2 {
     font-size: 30px;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     text-align: center;
   }
   #services .icon {
@@ -1387,17 +1390,17 @@
     padding: 10px;
   }
   #services .icon p {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-size: 12px;
     font-weight: lighter;
     margin-top: 5px;
   }
   #services .icon h4 {
     margin-top: 10px;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
   }
   .welcome {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFon";
     background-image: url(portfolio-4.jpg);
     background-size: cover;
     overflow-x: hidden;
@@ -1423,7 +1426,7 @@
     border-radius: 3px;
     width: 150px;
     height: 60px;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-size: 14px;
     display: flex;
     flex-direction: column;
@@ -1438,7 +1441,7 @@
     justify-content: center;
     padding: 30px;
     color: white;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     margin: 40px;
   }
   #portfolio .servicetext {
@@ -1446,13 +1449,13 @@
     text-align: center;
     font-size: 20px;
     display: block;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
   }
   #portfolio .portfoliohead {
     font-size: larger;
     width: 100%;
     text-align: center;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     color: black;
     font-size: 40px;
   }
@@ -1513,7 +1516,7 @@
     margin: 15px;
   }
   .twolinks {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     background-color: rgb(0, 128, 163);
     overflow-x: hidden;
     color: white;
@@ -1544,7 +1547,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
   }
   .twolinks .button5 {
     text-decoration: none;
@@ -1562,7 +1565,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
   }
   .map {
     background-image: url("Flexbox-Project.png");
@@ -1581,7 +1584,7 @@
     margin: 10px 10px;
   }
   .footer1 p {
-    font-family: "MyCustomFont", Source Sans 3;
+    font-family: "MyCustomFont";
     font-size: 10px;
     font-weight: lighter;
   }
