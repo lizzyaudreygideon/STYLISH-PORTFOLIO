@@ -1093,6 +1093,7 @@
     width: 450px;
     height: 30vh;
     padding: 50px;
+    margin: 10px 0;
   }
   #portfolio .strawberries {
     background-image: url(portfolio-3.jpg);
@@ -1105,6 +1106,7 @@
     width: 450px;
     height: 30vh;
     padding: 50px;
+    margin: 0 0 10px 0;
   }
   #portfolio .workspace {
     background-image: url(portfolio-4.jpg);
